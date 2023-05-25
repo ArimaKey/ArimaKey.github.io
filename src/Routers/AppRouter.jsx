@@ -4,7 +4,7 @@ import { Home } from "../Pages/Home/Home";
 import { Contact } from "../Pages/Contact/Contact";
 import { Proyects } from "../Pages/Proyects/Proyects";
 import { Page404 } from "../404/Page404";
-import { Skills } from "../Habilidades/Skills";
+import { Skills } from "../Pages/Habilidades/Skills";
 
 
 export const AppRouter = () => {

@@ -1,7 +1,7 @@
 export const Contact = () => {
   return (
     <div className="flex flex-col bg-zinc-900 shadow-xl pt-10 pb-10 md:pb-0">
-      <div className="flex flex-col  md:items-center md:self-center md:flex-row max-w-screen-lg animate__animated animate__fadeIn mx-10">
+      <div className="flex flex-col md:items-center md:self-center md:flex-row max-w-screen-lg animate__animated animate__fadeIn">
         <img src="./perfil.jpg" alt="" className="rounded-full h-40 w-40 my-10 mx-auto md:mr-8 shadow-xl"/>
         <div className="md:ml-8">
           <h2 className="font-bold text-center md:text-left text-3xl text-zinc-200 mb-2">ArimaKey</h2>

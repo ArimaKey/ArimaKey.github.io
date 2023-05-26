@@ -13,7 +13,7 @@ export const Proyect = () => {
           <img className="w-8" src="./tecnologias/react.png" />
           <img className="w-8" src="./tecnologias/tailwindcss.png" />
         </div>
-        <a href="https://github.com/" target="_blank" className="transition-colors delay-150 justify-center mx-auto text-center bg-transparent px-2 py-1 border-2 w-20 border-zinc-200 rounded text-zinc-200 hover:bg-zinc-200 hover:border-transparent hover:text-zinc-950" > Link</a>
+        <a href="https://github.com/" target="_blank" className="transition-colors delay-75 justify-center mx-auto text-center bg-transparent px-2 py-1 border-2 w-20 border-zinc-200 rounded text-zinc-200 hover:bg-zinc-200 hover:border-transparent hover:text-zinc-950" > Link</a>
   </div>
   )
 }

@@ -1,6 +1,11 @@
 export const Skill = () => {
   return (
-    <img src="./tecnologias/html.png" alt="" className="" />
+      <div>
+        <img src="./tecnologias/html.png" alt="" className="w-40" />
+        <div>
+          <h1>TITULO</h1>
+        </div>
+      </div>
 
   )
 }

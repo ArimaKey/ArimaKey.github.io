@@ -1,9 +1,13 @@
 import { Skill } from "./Skill"
 
 export const Skills = () => {
+  const tecnologias = FetchTecnologias();
+
   return (
     <div>
-        <Skill />
+      {
+        tecnologias && tecnologias.map( tecnologia => <Skill tecnologia={tecnologia}/>)
+      }
     </div>
   )
 }

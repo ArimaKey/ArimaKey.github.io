@@ -1,6 +1,6 @@
 export const Contact = ({ img, name, description }) => {
   return (
-    <div className="flex flex-col bg-zinc-900 shadow-xl pt-10 pb-10 md:pb-0">
+    <div className="animate__animated animate__fadeIn flex flex-col bg-zinc-900 shadow-xl pt-10 pb-10 md:pb-0">
       <div className="flex flex-col md:items-center md:self-center md:flex-row max-w-screen-lg animate__animated animate__fadeIn">
         <img src={img} alt="" className="rounded-full h-40 w-40 mt-10 mb-3 md:my-10 mx-auto md:mr-8 shadow-xl"/>
         <div className="md:ml-8">

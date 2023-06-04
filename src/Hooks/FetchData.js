@@ -25,3 +25,15 @@ export const FetchMainData = () => {
 
   return mainData;
 }
+
+export const FetchTecnologias = () => {
+  const [tecnologias, setTecnologias] = useState(null);
+
+  useEffect(() => {
+    getDocs(collection(db, "tecnologias")).then( (data) => {
+      setTecnologias(data)
+    }); 
+  }, []);
+
+  return tecnologias;
+}

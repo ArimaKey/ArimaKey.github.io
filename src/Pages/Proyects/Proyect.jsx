@@ -8,7 +8,11 @@ export const Proyect = ({ icon, information, title, tecnologias, link_github, li
         </div>
 
         <div className="flex flex-row gap-8 mx-auto mt-0 mb-5">
-
+          {
+            tecnologias && tecnologias.map( tecnologia => (
+              <img className="w-8" key={ tecnologia } src={ tecnologia }/>
+            ))
+          }
         </div>
         <div>
           <a href={ link_github } target="_blank" className="transition-colors delay-75 justify-center mx-auto text-center bg-transparent px-2 py-1 border-2 w-20 border-zinc-200 rounded text-zinc-200 hover:bg-zinc-200 hover:border-transparent hover:text-zinc-950" > Link</a>

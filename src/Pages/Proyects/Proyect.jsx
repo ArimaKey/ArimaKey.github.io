@@ -14,7 +14,7 @@ export const Proyect = ({ icon, information, title, tecnologias, link_github, li
             ))
           }
         </div>
-        <div>
+        <div className="flex flex-row gap-6 mx-auto">
           <a href={ link_github } target="_blank" className="transition-colors delay-75 justify-center mx-auto text-center bg-transparent px-2 py-1 border-2 w-20 border-zinc-200 rounded text-zinc-200 hover:bg-zinc-200 hover:border-transparent hover:text-zinc-950" > Link</a>
           <a href={ link_proyect } target="_blank" className="transition-colors delay-75 justify-center mx-auto text-center bg-transparent px-2 py-1 border-2 w-20 border-zinc-200 rounded text-zinc-200 hover:bg-zinc-200 hover:border-transparent hover:text-zinc-950" > Link</a>
         </div>

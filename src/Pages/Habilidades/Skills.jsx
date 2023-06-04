@@ -1,3 +1,4 @@
+import { FetchTecnologias } from "../../Hooks/FetchData";
 import { Skill } from "./Skill"
 
 export const Skills = () => {
@@ -6,7 +7,7 @@ export const Skills = () => {
   return (
     <div>
       {
-        tecnologias && tecnologias.map( tecnologia => <Skill tecnologia={tecnologia}/>)
+        tecnologias && tecnologias.docs.map( tecnologia => <Skill key={ tecnologia.data().name } {...tecnologia.data()}/>)
       }
     </div>
   )

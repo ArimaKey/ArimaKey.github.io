@@ -1,5 +1,6 @@
 import { FetchMainData } from '../../Hooks/FetchData';
 import { Contact } from '../Contact/Contact';
+import { Skills } from '../Habilidades/Skills';
 import { Loading } from '../Loading/Loading';
 import { Proyects } from '../Proyects/Proyects';
 import { Link } from 'react-router-dom';
@@ -15,7 +16,9 @@ export const Home = () => {
             <Loading />
           </div>
       }
-        
+      <Skills />
+
+
       <Proyects />
       {
         mainData &&
